@@ -19,7 +19,7 @@ export default function BlogPage() {
       />
       <section className="pb-14">
         <div className="mx-auto grid w-[min(1180px,calc(100%-1.5rem))] gap-5 md:grid-cols-3">
-          {["Growth psychology", "SEO and content systems", "Brand positioning for conversion"].map((item) => (
+          {["Growth psychology", "SEO and content systems", "Brand positioning for conversion", "practise"].map((item) => (
             <GlassCard key={item} className="dashboard-card rounded-[1.75rem]">
               <p className="text-xs uppercase tracking-[0.32em] text-[#2563eb]">Editorial Focus</p>
               <p className="mt-4 text-lg text-slate-600">{item}</p>
